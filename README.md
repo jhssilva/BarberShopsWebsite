@@ -1,0 +1,2 @@
+# BarberShopsWebsite
+Website for Barber Shops around the block. Customers now can see what barbers shops are available now and their queue. Also, they can pay and do all things relative with going to the barber shop and one. It's like a social media for barber shop, with also some features for easy finding the best barber shop around you. It's possible for the barbers shops to pay a fee and get more exposed, also, what matters at the end it's the reviews and the quality of the barber.
