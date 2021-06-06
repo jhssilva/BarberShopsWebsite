@@ -4,13 +4,14 @@ import 'bootstrap/dist/css/bootstrap.css';
 import './index.css';
 import App from './App';
 import HomeBackgroundVideo from './components//Home-Main-Background-Video/home-background-video';
+import Header from './components/Header/header'
 import reportWebVitals from './reportWebVitals';
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <HomeBackgroundVideo/>
-    ,
+    <HomeBackgroundVideo/>,
+    <Header/>
     <App />
   </React.StrictMode>,
   document.getElementById('root')

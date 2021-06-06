@@ -3,7 +3,7 @@ import './home-background-video.css';
 import HomeBackgroundVideo from '../../resources/Home-Page/Home-main-background-video.mp4';
 import HomeBackgroundImage from '../../resources/Home-Page/Home-main-background-image.jpg';
 
-function BckVideo() {
+function HomeMainBackgroundVideo() {
   return (
     <div className="home-background-video">
       <div className="home-background-video-wrap">
@@ -17,4 +17,4 @@ function BckVideo() {
   );
 }
 
-export default BckVideo;
+export default HomeMainBackgroundVideo;
