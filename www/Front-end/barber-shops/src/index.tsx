@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.css';
 import './index.css';
 import App from './App';
-import HomeBackgroundVideo from './components/Home-Background-Video/home-background-video';
+import HomeBackgroundVideo from './components//Home-Main-Background-Video/home-background-video';
 import reportWebVitals from './reportWebVitals';
 
 
