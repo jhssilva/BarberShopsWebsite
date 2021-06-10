@@ -1,6 +1,10 @@
 #home-background-video-play{
     height: 100%;
+    width: 100%;
     float: left;
     top: 0;
-    position: fixed;
+    left:0;
+    position: absolute;
+    object-fit: fill;
+    opacity: 0.9;
 }

@@ -1,26 +1,20 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import 'bootstrap/dist/css/bootstrap.css';
-import './index.css';
-import App from './App';
-import HomeBackgroundVideo from './components//Home-Main-Background-Video/home-background-video';
-import Header from './components/Header/header'
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom";
 
+import "bootstrap/dist/css/bootstrap.css";
+import "./index.css";
+import reportWebVitals from "./reportWebVitals";
+import Home from "./pages/Home";
+
+//const element = <h1>Hello World</h1>;
+//ReactDOM.render(element, document.getElementById("root"));
 
 ReactDOM.render(
   <React.StrictMode>
-    <HomeBackgroundVideo/>,
-    <Header/>
-    <App />
+    <Home />
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
-
-
-
-
-
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
