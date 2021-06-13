@@ -9,14 +9,18 @@ class HomeText extends React.Component<HomeTextProps, HomeTextState> {
   //state = { :  }
   render() {
     return (
-      <div className="home-text text-white container top-50 position-relative">
-        <h3>Exploring The World</h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.
-        </p>
+      <div className="home-text text-white container d-flex position-relative">
+        <div className="d-flex">
+          <h3 className="col-3">
+            Tired of waiting in line? Or trying to find the best barber shop?
+          </h3>
+          <p className="col-9 d-flex align-items-md-center">
+            You found the place. Search the best barber shop in the neighbourd.
+            Make appointments, talk with them, pay online, view their work, see
+            the queue or their schedule. Let's bring us closer!
+          </p>
+        </div>
+        <div className="">teste</div>
       </div>
     );
   }

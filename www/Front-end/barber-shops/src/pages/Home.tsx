@@ -3,6 +3,7 @@ import { Component } from "react";
 import BackGroundVideo from "../components/Home-Main-Background-Video/home-background-video";
 import HomeText from "../components/home-text";
 import Header from "../components/Header/header";
+import NavBar from "../components/navbar";
 
 export interface Props {}
 
@@ -13,7 +14,7 @@ class Home extends React.Component<Props, State> {
   render() {
     return (
       <section className="showcase d-flex">
-        <Header />
+        <NavBar />
         <BackGroundVideo />
         <HomeText />
       </section>
