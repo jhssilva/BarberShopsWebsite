@@ -5,7 +5,7 @@ export interface NavBarProps {}
 export interface NavBarState {}
 
 class NavBar extends React.Component<NavBarProps, NavBarState> {
-  state = { menu: ["Home", "Find Me", "About US", "Login"] };
+  state = { menu: ["Find Me", "About US", "Login"] };
   render() {
     return (
       <nav className="navbar navbar-expand-lg navbar-dark bg-transparent">
