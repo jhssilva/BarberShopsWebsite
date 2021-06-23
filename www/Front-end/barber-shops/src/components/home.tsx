@@ -1,9 +1,8 @@
 import * as React from "react";
 import { Component } from "react";
-import BackGroundVideo from "../components/Home-Main-Background-Video/home-background-video";
-import HomeText from "../components/home-text";
-import Header from "../components/Header/header";
-import NavBar from "../components/navbar";
+import BackGroundVideo from "./Home-Main-Background-Video/home-background-video";
+import HomeText from "./home-text";
+import NavBar from "./common/navbar";
 
 export interface Props {}
 

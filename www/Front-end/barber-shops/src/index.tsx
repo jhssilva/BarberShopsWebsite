@@ -4,14 +4,14 @@ import ReactDOM from "react-dom";
 import "bootstrap/dist/css/bootstrap.css";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
-import Home from "./pages/Home";
+import App from "./App";
 
 //const element = <h1>Hello World</h1>;
 //ReactDOM.render(element, document.getElementById("root"));
 
 ReactDOM.render(
   <React.StrictMode>
-    <Home />
+    <App />
   </React.StrictMode>,
   document.getElementById("root")
 );
