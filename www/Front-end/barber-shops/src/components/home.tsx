@@ -1,8 +1,8 @@
 import * as React from "react";
 import { Component } from "react";
 import BackGroundVideo from "./Home-Main-Background-Video/home-background-video";
-import HomeText from "./home-text";
 import NavBar from "./common/navbar";
+import Footer from "./common/footer";
 
 export interface Props {}
 
@@ -12,11 +12,13 @@ class Home extends React.Component<Props, State> {
   //state = { :  }
   render() {
     return (
-      <section className="showcase d-flex">
+      <React.Fragment>
         <NavBar />
-        <BackGroundVideo />
-        <HomeText />
-      </section>
+        <section className="content">
+          <BackGroundVideo />
+        </section>
+        <Footer />
+      </React.Fragment>
     );
   }
 }

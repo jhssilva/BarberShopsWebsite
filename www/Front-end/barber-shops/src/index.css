@@ -12,17 +12,54 @@ code {
     monospace;
 }
 
+/*
+Added (It maybe can be removed)
+*/
+.site-wrapper{
+  border: 0;
+  font:inherit;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+
+}
+
+
+
+/* ADDED */
+
+
 /* Start */
 .home-text{
   z-index: 10;
 }
 
+
+/*
 .showcase
 {
   position: absolute;
   right: 0;
   width: 100%;
   min-height: 100vh;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #111;
+  transition: 0.5s;
+  z-index: 2;
+}
+*/
+
+
+.showcase
+{
+  position: relative;
+  right: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;;
   padding: 100px;
   display: flex;
   justify-content: space-between;
@@ -41,10 +78,6 @@ code {
   z-index: 1000;
   justify-content: space-between;
   align-items: center;
-}
-
-body{
-  background-color: #111;
 }
 
 /* Maybe change places */
