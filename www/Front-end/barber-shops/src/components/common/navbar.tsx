@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
 export interface NavBarProps {}
 
@@ -37,9 +38,9 @@ const NavBar = (props: any) => {
 
               {state.menu.map((entry) => (
                 <li key="tag" className="nav-item">
-                  <a className="nav-link" href="#">
+                  <Link className="nav-link" to="/login">
                     {entry}
-                  </a>
+                  </Link>
                 </li>
               ))}
 

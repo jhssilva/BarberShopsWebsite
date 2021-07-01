@@ -10,3 +10,18 @@
     background-size: cover;
     padding: 120px 0 100px;
 }
+
+.space{
+    margin-top: 60px;
+}
+
+.icon-box{
+    padding: 20px 0;;
+}
+
+.icon-box .icon-box-icon{
+    font-size: 2.375rem;
+    margin: 0 0 10px;
+    color: #505cfd;
+    transition: all .3s ease-in-out;
+}

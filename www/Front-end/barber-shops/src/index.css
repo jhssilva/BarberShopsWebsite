@@ -24,8 +24,6 @@ Added (It maybe can be removed)
 
 }
 
-
-
 /* ADDED */
 
 
@@ -34,43 +32,8 @@ Added (It maybe can be removed)
   z-index: 10;
 }
 
-
-/*
-.showcase
-{
-  position: absolute;
-  right: 0;
-  width: 100%;
-  min-height: 100vh;
-  padding: 100px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: #111;
-  transition: 0.5s;
-  z-index: 2;
-}
-*/
-
-
-.showcase
-{
-  position: relative;
-  right: 0;
-  top: 0;
-  left: 0;
-  bottom: 0;;
-  padding: 100px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: #111;
-  transition: 0.5s;
-  z-index: 2;
-}
-
 .navbar{
-  position: absolute;
+  position: fixed;
   top:0;
   left:0;
   width: 100%;
@@ -90,18 +53,6 @@ Added (It maybe can be removed)
 
 
 /* Home */
-
-.header{
-  position: absolute;
-  top:0;
-  left:0;
-  width: 100%;
-  padding: 40px 100px;
-  z-index: 1000;
-  justify-content: space-between;
-  align-items: center;
-
-}
 
 .navbar .nav-item{
   font-weight: bolder;
