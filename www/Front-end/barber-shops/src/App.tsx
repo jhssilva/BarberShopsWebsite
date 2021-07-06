@@ -6,6 +6,7 @@ import React, {
 } from "react";
 
 import { Route, Switch } from "react-router-dom";
+import Footer from "./components/common/footer";
 
 // Make a file with this components
 import NavBar from "./components/common/navbar";
@@ -26,6 +27,7 @@ class App extends React.Component<AppProps, AppState> {
           <Route path="/login" component={Login} />
           <Route path="/" component={Home} />
         </Switch>
+        <Footer />
       </React.Fragment>
     );
   }

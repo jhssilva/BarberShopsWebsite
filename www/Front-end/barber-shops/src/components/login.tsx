@@ -5,7 +5,7 @@ import Footer from "./common/footer";
 
 const renderTags = () => {
   return (
-    <body className="text-center bg-white">
+    <body className="login-body text-center d-flex bg-white">
       <main className="form-signin">
         <form>
           <img
@@ -57,13 +57,7 @@ export interface LoginState {}
 class Login extends React.Component<LoginProps, LoginState> {
   state = { teste: "" };
   render() {
-    return (
-      <div>
-        <NavBar />
-        {renderTags()}
-        <Footer />
-      </div>
-    );
+    return <div>{renderTags()}</div>;
   }
 }
 

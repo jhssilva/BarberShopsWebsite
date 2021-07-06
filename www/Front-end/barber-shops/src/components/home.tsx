@@ -84,7 +84,6 @@ class Home extends React.Component<Props, State> {
           <BackGroundVideo />
           {section1()}
         </section>
-        <Footer />
       </React.Fragment>
     );
   }

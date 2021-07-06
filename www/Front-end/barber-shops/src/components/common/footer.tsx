@@ -64,7 +64,7 @@ const socialMediaIcons = () => {
 
 const Footer = () => {
   return (
-    <footer className="footer">
+    <footer className="footer mt-auto">
       <div className="container">
         <div>Just to text</div>
       </div>
