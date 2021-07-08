@@ -27,6 +27,14 @@ Added (It maybe can be removed)
 /* ADDED */
 
 
+.site-wrapper{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+
+
 /* Start */
 .home-text{
   z-index: 10;

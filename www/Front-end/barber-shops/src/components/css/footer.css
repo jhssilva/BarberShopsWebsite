@@ -1,4 +1,24 @@
 /* Change to sass -> Easier to mantain and better to use css*/
 .footer{
-    background-color: grey;
+    background-color: #f7f8fc;
 }
+
+.footer-bar{
+    background-color: #a2a5b3;
+}
+
+.footer-inner .container{
+    display: flex;
+    padding: 20px 0;
+    flex-direction: column;
+}
+
+.footer-inner-column{
+    padding: 20px;
+}
+
+.footer-inner .footer-inner-section{
+    justify-content: center;
+}
+
+
