@@ -14,7 +14,6 @@ const NavBar = (props: any) => {
   };
 
   const NavBarItem = (item: any) => {
-    console.log(item);
     return (
       <Link
         key={item.name}
@@ -26,9 +25,13 @@ const NavBar = (props: any) => {
     );
   };
 
+  const NavBarClass = () => {
+    return "navbar navbar-expand-lg navbar-dark bg-transparent";
+  };
+
   return (
     <header>
-      <nav className="navbar navbar-expand-lg navbar-dark bg-transparent">
+      <nav className={NavBarClass()}>
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
             Logo website
